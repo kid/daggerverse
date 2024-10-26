@@ -1,0 +1,6 @@
+{
+  "name": "terraform",
+  "sdk": "go",
+  "source": ".",
+  "engineVersion": "v0.13.6"
+}

@@ -1,6 +1,12 @@
 # yaml-language-server: $schema=https://devenv.sh/devenv.schema.json
 inputs:
   nixpkgs:
-    url: github:cachix/devenv-nixpkgs/rolling
+    url: github:NixOS/nixpkgs/nixpkgs-unstable
   dagger:
     url: github:dagger/nix
+  flux-local:
+    url: github:allenporter/flux-local
+    flake: false
+
+# imports:
+#   - flux-local/requirements.txt

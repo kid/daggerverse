@@ -5,11 +5,10 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1726068060,
+        "lastModified": 1729855591,
         "owner": "dagger",
         "repo": "nix",
-        "rev": "c9c10ef3a7572d2adf34be6569a099c51fba19b2",
-        "treeHash": "f540ba20ed7a94db0126a2035060f0e633ebaded",
+        "rev": "64c33026d77a4d3401959418692a27ee189c408b",
         "type": "github"
       },
       "original": {
@@ -21,11 +20,11 @@
     "devenv": {
       "locked": {
         "dir": "src/modules",
-        "lastModified": 1726232533,
+        "lastModified": 1726682244,
         "owner": "cachix",
         "repo": "devenv",
-        "rev": "199a23e3bcfbfacaec3836d1c884918e13239b50",
-        "treeHash": "a774fff2bafa6f2dbb20c7e6ed286027ee9b4d68",
+        "rev": "bfc6481188a3e7ddda2e745292b737c03949a1ab",
+        "treeHash": "70531d38530c1903c4e0c152c8e5c8ce18ff0f0f",
         "type": "github"
       },
       "original": {
@@ -48,6 +47,22 @@
       "original": {
         "owner": "edolstra",
         "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flux-local": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1726549793,
+        "owner": "allenporter",
+        "repo": "flux-local",
+        "rev": "2a3a3055114a7acf0a74d20f3e3f7bf87f98d45f",
+        "treeHash": "0e89556627789235025f2e9954306ecf541dd49f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "allenporter",
+        "repo": "flux-local",
         "type": "github"
       }
     },
@@ -74,11 +89,10 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1726334142,
+        "lastModified": 1729850857,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "d9d07251f12399413e6d33d5875a6f1994ef75a7",
-        "treeHash": "3c0ef28a76428f22ca57a1a2ad8711a56cd1c68c",
+        "rev": "41dea55321e5a999b17033296ac05fe8a8b5a257",
         "type": "github"
       },
       "original": {
@@ -90,11 +104,11 @@
     },
     "nixpkgs-stable": {
       "locked": {
-        "lastModified": 1726320982,
+        "lastModified": 1726447378,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "8f7492cce28977fbf8bd12c72af08b1f6c7c3e49",
-        "treeHash": "01138919459f4bdcf23e6289eaf3329667e00707",
+        "rev": "086b448a5d54fd117f4dc2dee55c9f0ff461bdc1",
+        "treeHash": "0484595757634aa3d99beca878bc480d9b2eed67",
         "type": "github"
       },
       "original": {
@@ -106,17 +120,17 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1716977621,
-        "owner": "cachix",
-        "repo": "devenv-nixpkgs",
-        "rev": "4267e705586473d3e5c8d50299e71503f16a6fb6",
-        "treeHash": "6d9f1f7ca0faf1bc2eeb397c78a49623260d3412",
+        "lastModified": 1726583932,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "658e7223191d2598641d50ee4e898126768fe847",
+        "treeHash": "34fe30c0e60f1f8c7627caaf643eb6d140478b72",
         "type": "github"
       },
       "original": {
-        "owner": "cachix",
-        "ref": "rolling",
-        "repo": "devenv-nixpkgs",
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
         "type": "github"
       }
     },
@@ -147,6 +161,7 @@
       "inputs": {
         "dagger": "dagger",
         "devenv": "devenv",
+        "flux-local": "flux-local",
         "nixpkgs": "nixpkgs_2",
         "pre-commit-hooks": "pre-commit-hooks"
       }
